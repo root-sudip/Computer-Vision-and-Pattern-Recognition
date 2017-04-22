@@ -9,6 +9,8 @@ from scipy.signal import convolve2d as conv2
 from scipy import ndimage as ndi
 from scipy.misc import imsave
 
+
+from sklearn.decomposition import DictionaryLearning
 from sklearn.decomposition import MiniBatchDictionaryLearning
 from sklearn.feature_extraction.image import extract_patches_2d
 from sklearn.feature_extraction.image import reconstruct_from_patches_2d
@@ -30,7 +32,8 @@ from PIL import Image
 
 from os import listdir
 from time import time
-import os
+
+from PIL import ImageFilter
 
 
 print('Enter the Patch size(X,Y) for making the Dictionary : ')
@@ -61,38 +64,20 @@ total_images = int(input('Enter total Images : '))
 while True:
 	path = input('Path for source of the Images : ')
 	try:
-		# for f in listdir(path):
-		# 	if f.endswith('.jpg'):
-		# 		if(total_img <= total_images):
-		# 			total_img = total_img + 1
-		# 			print(f)
-		# 			print('Data shape : ',data.shape)
-		# 			print('Total file : ',total_img)
-
-		# 			A = np.asarray(Image.open(path+f).resize(reshape_size, Image.ANTIALIAS))
-		# 			X =  extract_patches_2d(A,patch_size)
-		# 			data = np.append(data,X,axis=0)
-		# 			print('patch shape',X.shape)
-		# 		else:
-		# 			break
-
-		for dirName, subdirList, fileList in os.walk(path):
-#print('Found directory: %s' % dirName)
-			print('Dir name : ',dirName)
-			for fname in fileList:
-				if total_img <= total_images:
+		for f in listdir(path):
+			if f.endswith('.jpg'):
+				if(total_img <= total_images):
 					total_img = total_img + 1
-					print('File Name : ',fname)
+					print(f)
 					print('Data shape : ',data.shape)
 					print('Total file : ',total_img)
-					print('Total path : ',dirName+fname)
-					A = np.asarray(Image.open(dirName+'/'+fname).resize(reshape_size, Image.ANTIALIAS))
+
+					A = np.asarray(Image.open(path+f).resize(reshape_size, Image.ANTIALIAS))
 					X =  extract_patches_2d(A,patch_size)
 					data = np.append(data,X,axis=0)
 					print('patch shape',X.shape)
 				else:
 					break
-
 	except FileNotFoundError:
 		print('Entered wrong path :')
 	else:
@@ -120,7 +105,7 @@ n_iter = int(input('Enter number of interations for Dictionary Learning : '))
 
 print('Learning the Dictionary ....')
 
-dico = MiniBatchDictionaryLearning(n_components=100,alpha=3,n_iter=n_iter)
+dico =  MiniBatchDictionaryLearning(n_components=100,alpha=3,n_iter=n_iter)
 
 V = dico.fit(data).components_
 print('Dic shape : ',V.shape)
@@ -128,4 +113,7 @@ t3 = time()
 print('No of iteration : ',n_iter)
 print('Total time taken for Dictionary learning : ',round((t3-t2),2),' sec')
 
-np.savetxt('dic.txt',V,fmt="%f")
+
+
+filename = input('Enter File Name to store Dictionary : ')
+np.savetxt(filename,V,fmt="%f")
