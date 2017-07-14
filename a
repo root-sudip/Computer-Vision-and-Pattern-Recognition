@@ -1,0 +1,273 @@
+    1  man sudo_root
+    2  sudo su
+    3  python3
+    4  sudo pip3 install numpy
+    5  sudo pip3 install numpy
+    6  sudo pip install numpy
+    7  cd /usr/local/lib/python3.5/dist-packages/
+    8  ls -l;
+    9  sudo apt-get install python3-setuptools
+   10  sudo rm -rf /var/crash/*
+   11  sudo apt-get update
+   12  sudo rm /var/lib/dpkg/lock
+   13  sudo dpkg --configure -a
+   14  sudo apt-get update
+   15  sudo rm -rf /var/lib/apt/lists/lock 
+   16  sudo apt-get install
+   17  cd Downloads/
+   18  dpkg -i google-chrome-stable_current_amd64.deb 
+   19  sudo dpkg -i google-chrome-stable_current_amd64.deb 
+   20  sudo apt-get install python3-setuptools
+   21  sudo apt-get upgrade
+   22  sudo apt-get -f upgrade
+   23  ssh 192.168.57.39
+   24  ssh plp@192.168.57.39
+   25  cd Downloads/
+   26  sudo dpkg -i google-chrome-stable_current_amd64.deb 
+   27  pip
+   28  pip3
+   29  sudo apt install python3-pip
+   30  sudo dpkg -i google-chrome-stable_current_amd64.deb 
+   31  sudo rm -rf /var/crash/*
+   32  sudo apt-get install python3-setuptools
+   33  sudo apt-get -f install python3-setuptools
+   34  sudo apt-get install --fix-broken && sudo apt-get autoremove && sudo apt-get update 
+   35  sudo apt-get install python3-setuptools
+   36  sudo apt-get install python3-pip
+   37  sudo pip3 install numpy
+   38  sudo pip3 install -v scipy
+   39  sudo apt-get install libblas-test
+   40  sudo apt-get install libopenblas-base
+   41  sudo apt-get install libopenblas-dev
+   42  sudo pip3 install -v scikit-learn
+   43  sudo apt-get install libblas3gf
+   44  sudo apt-get install libblas-doc
+   45  sudo apt-get install libblas-dev
+   46  sudo apt-get install liblapack3gf
+   47  sudo apt-get install liblapack-doc
+   48  sudo apt-get install liblapack-dev
+   49  sudo add-apt-repository ppa:webupd8team/sublime-text-3
+   50  sudo apt-get update
+   51  sudo apt-get install sublime-text-installer
+   52  sudo pip3 install scikit-image
+   53  sudo pip3 install PIL
+   54  sudo pip3 install Image
+   55  sudo pip3 install matplotlib
+   56  cd temp/sci1/
+   57  python3 dictionary.py 
+   58  sudo apt-get install python3-matplotlib
+   59  python3 dictionary.py 
+   60  vim dictionary.py 
+   61  sudo apt-get install vim
+   62  vim dictionary.py 
+   63  python3 dictionary.py 
+   64  vim dictionary.py 
+   65  sudo apt-get install vim-gnome
+   66  subl
+   67  sudo apt-get install git
+   68  subl dictionary.py 
+   69  python3 dictionary.py 
+   70  cd
+   71  cd Desktop/
+   72  subl
+   73  python3
+   74  cd /usr/local/lib/python3.5/dist-packages/sklearn/
+   75  ls -l
+   76  cd decomposition/
+   77  sudo su
+   78  git clone https://github.com/root-sudip/Computer-Vision-and-Pattern-Recognition.git
+   79  cd github/
+   80  git clone https://github.com/root-sudip/Computer-Vision-and-Pattern-Recognition.git
+   81  git add .
+   82  git init
+   83  git add .
+   84  git commit -m "CVPR"
+   85  git push -u origin master
+   86  cd
+   87  mkdir sshgit
+   88  cd sshgit/
+   89  git config --global user.email "d.sudip47@gmail.com"
+   90  git config --global user.email
+   91  sh-keygen -t rsa -b 4096 -C "d.sudip47@gmail.com"
+   92  ssh-keygen -t rsa -b 4096 -C "d.sudip47@gmail.com"
+   93  ls -l
+   94  cat sudip
+   95  cat sudip.pub 
+   96  git add sudip
+   97  ssh-add sudip
+   98  git config --global user.name "Sudip Das"
+   99  git config --list
+  100  eval "$(ssh-agent -s)"
+  101  ssh-add sudip
+  102  cd sshgit/
+  103  cat sudip.pub 
+  104  ssh-add sudip
+  105  cd 
+  106  cd github/
+  107  git add .
+  108  git pull origin master
+  109  cd Computer-Vision-and-Pattern-Recognition/
+  110  git add .
+  111  git commit -m "CVPR"
+  112  git push -u origin master 
+  113  cd ..
+  114  subl
+  115  python3
+  116  subl
+  117  sudo su
+  118  pyhton3
+  119  python3
+  120  cd /usr/local/lib/python3.5/dist-packages/sklearn/
+  121  ls -l
+  122  cd decomposition/
+  123  ls -l
+  124  sudo su
+  125  cd
+  126  cd temp/sci1/
+  127  python3 dictionary.py 
+  128  cd
+  129  cd temp/sci1/
+  130  >pca.py
+  131  gvim
+  132  subl dictionary.py 
+  133  subl pca.py 
+  134  python3 pca.py 
+  135  sudo ap-get install tensorflow
+  136  sudo pip3 install tensorflow
+  137  sudo apt-get install python3-opencv
+  138  sudo apt-get install python3-cv2
+  139  sudo apt-get install python3-opencv2
+  140  cd
+  141  cd sshgit/
+  142  ssh-ad sudip
+  143  ssh-add sudip
+  144  cd
+  145  cd github/
+  146  cd Computer-Vision-and-Pattern-Recognition/
+  147  git add .
+  148  git commit -m "CNN"
+  149  git push -u origin master 
+  150  python3
+  151  subl
+  152  python3
+  153  cd temp/
+  154  cd sci1/
+  155  python3 dictionary.py 
+  156  cd sshgit/
+  157  ssh-add sudip
+  158  cd
+  159  cd github/
+  160  git add .
+  161  git commit -m "Linear"
+  162  cd Computer-Vision-and-Pattern-Recognition/
+  163  git add .
+  164  git commit -m "Linear"
+  165  git push -u origin master 
+  166  python3
+  167  cd usr/local/lib/python3.5/dist-packages/sklearn/
+  168  cd /usr/local/lib/python3.5/dist-packages/sklearn/decomposition/
+  169  sudo su
+  170  subl
+  171  python3 
+  172  sudo pip3 install pandas
+  173  cd sshgit/
+  174  ssh-add .
+  175  ssh-add sudip
+  176  cd
+  177  cd github/
+  178  git add .
+  179  git commit -m "CVPR"
+  180  cd Computer-Vision-and-Pattern-Recognition/
+  181  git add .
+  182  git commit -m "CVPR"
+  183  git push -u origin master 
+  184  cd
+  185  cd temp/sci1/
+  186  python3 dictionary.py 
+  187  pyhton3
+  188  python3
+  189  cd /usr/local/lib/python3.5/dist-packages/sklearn/
+  190  cd decomposition/
+  191  ls -l
+  192  subl dict_learning.py 
+  193  sudo su
+  194  ifconfig
+  195  cd Desktop/
+  196  cd 01/
+  197  cd bilataral\ filter\ /
+  198  python3 white\ sharp.py 
+  199  vim white\ sharp.py 
+  200  python3 white\ sharp.py 
+  201  vim white\ sharp.py 
+  202  python3 white\ sharp.py 
+  203  cd ..
+  204  cd 03/
+  205  cd bilataral\ /
+  206  python3 white\ sharp.py 
+  207  cd ..
+  208  cd 04/
+  209  cd bilataral\ filter/
+  210  vim white\ sharp.py 
+  211  python3 white\ sharp.py 
+  212  cd ..
+  213  cd only\ dictionary\ learning/
+  214  python3 white\ sharp.py 
+  215  ssh plp@192.168.57.39
+  216  cd ..
+  217  cd sci\ 2/
+  218  nohup python3 sparse.py
+  219  ssh plp@192.168.57.39
+  220  cd temp/sci\ 2/
+  221  python3 white\ sharp.py 
+  222  scp d3.png /home/plp/Sudip/sci1
+  223  scp d3.png  plp@192.168.57.39:/home/plp/Sudip/sci1/
+  224  python3 white\ sharp.py 
+  225  python3 shap.py 
+  226  ssh plp@192.168.57.39
+  227  ssh plp@192.168.57.39
+  228  scp  plp@192.168.57.39:/home/plp/Sudip/sci1/denoised.png
+  229  scp  plp@192.168.57.39:/home/plp/Sudip/sci1/denoised.png .
+  230  python3 reshape.py 
+  231  python3 shap.py 
+  232  scp d4.png  plp@192.168.57.39:/home/plp/Sudip/sci1/
+  233  cd H01/
+  234  python3 white\ sharp.py 
+  235  ssh plp@192.168.57.39
+  236  lspci -k | grep -EA2 'VGA|3D'
+  237  sudo apt-get install nvidia-352 nvidia-prime
+  238  sudo apt-get remove nvidia-352 nvidia-prime
+  239  sudo ifconfig wlp4s0 up
+  240  service network-manager restart
+  241  cd Desktop/
+  242  cd MT7630E-release/
+  243  sudo ./install 
+  244  ifconfig
+  245  sudo apt update
+  246  sudo ifconfig wlan0 up
+  247  wget http://dl.dropbox.com/u/11876059/DPO_RT3290_LinuxSTA_V2600_20120508.tar.gz
+  248  cd Desktop/DPO_RT3290_LinuxSTA_V2600_20120508/
+  249  make
+  250  sudo make
+  251  sudo make install
+  252  lspci | grep Network
+  253  cd
+  254  cd RT3290_u16/
+  255  ./compile.sh 
+  256  ls -l
+  257  sudo ./install.sh 
+  258  sudo ./compile.sh 
+  259  sudo apt-get install ndiswrapper
+  260  sudo apt-get update
+  261  sudo apt-get install ndiswrapper
+  262  cd github/
+  263  cd
+  264  cd sshgit/
+  265  ssh-add sudip
+  266  cd
+  267  cd github/
+  268  cd Computer-Vision-and-Pattern-Recognition/
+  269  git add .
+  270  git commit -m "CVPR"
+  271  git push -u origin master 
+  272  history
+  273  history>a
